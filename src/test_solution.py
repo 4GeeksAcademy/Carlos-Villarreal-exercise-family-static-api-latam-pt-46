@@ -140,4 +140,3 @@ def test_delete_response(client):
     tommy = json.loads(post_response.data)
     delete_response = client.delete(f"/members/{tommy['id']}")
     assert delete_response.json["done"] == True, "The DELETE /members/<id> method should return a dictionary with the 'done' key"
-
