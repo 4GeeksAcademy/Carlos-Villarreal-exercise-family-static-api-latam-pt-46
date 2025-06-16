@@ -16,27 +16,27 @@ CORS(app)
 # Create the jackson family object
 jackson_family = FamilyStructure("Jackson")
 
-Jack = {
-    "first_name": "Jack",
-    "age": "23",
-    "lucky_numbers": [2, 17, 23]
+John = {
+    "first_name": "John",
+    "age": "33",
+    "lucky_numbers": [7, 13, 22]
 }
 
-Janet = {
-    "first_name": "Janet",
-    "age": "28",
-    "lucky_numbers": [9, 16, 26]
+Jane = {
+    "first_name": "Jane",
+    "age": "35",
+    "lucky_numbers": [10, 14, 13]
 }
 
-Jill = {
-    "firs_name": "Jill",
-    "age": "19",
-    "lucky_numbers": [10, 17, 29]
+Jimmy = {
+    "firs_name": "Jimmy",
+    "age": "5",
+    "lucky_numbers": [1]
 }
 
-jackson_family.add_member(Jack)
-jackson_family.add_member(Janet)
-jackson_family.add_member(Jill)
+jackson_family.add_member(John)
+jackson_family.add_member(Jane)
+jackson_family.add_member(Jimmy)
 
 
 # Handle/serialize errors like a JSON object
